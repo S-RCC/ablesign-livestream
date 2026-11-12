@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background: black;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Forces autoplay and mutes audio to satisfy browser security restrictions -->
+    <iframe src="https://www.youtube.com/embed/UCSeke8Wzhy4Igup1LJa6bkQ?autoplay=1&mute=1&enablejsapi=1" 
+            allow="autoplay; encrypted-media" 
+            allowfullscreen>
+    </iframe>
+</body>
+</html>
